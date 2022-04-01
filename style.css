@@ -9,3 +9,15 @@ img {
     max-width: 100%;
 }
 
+.container {
+	width: 70vw;
+	margin: 10px auto;
+	height: 200vh;
+}
+.container > * {
+	border: 2px solid green;
+	background-color: #ffec99;
+	padding: 10px;
+	margin: 10px 0;
+	height: 100px;
+}
