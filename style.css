@@ -1,0 +1,11 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+img {
+    /*image never to be wider than its containing element, so 100%*/
+    max-width: 100%;
+}
+
