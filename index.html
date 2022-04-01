@@ -6,26 +6,37 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css" type="text/css">
         <style>
-            @media (min-width: 600px) { /*when view width 
-                larger than or equal to 600px. */
-                body {
-                    background-color: blue;
-                }
-                p { 
-                    color: red;
-                }
+            .container {
+                display: flex;
             }
-
-            @media (min-width: 900px) {
-                body {
-                    background-color: gray;
-                }
+            .item5 {
+                order: -1;
             }
-        </style>
-    </head>
-    <body>
-        <div>
-            <p>paragraph</p>
-        </div>
-    </body>
-</html>
+            .item3 {
+                order: 1;
+            }
+        
+        
+        
+            </style>
+        </head>
+        <body>
+            <div class="container">
+                <div class="item1">
+                    <a href="#">one</a>
+                </div>
+                <div class="item2">
+                    <a href="#">two</a>
+                </div>
+                <div class="item3">
+                    <a href="#">three</a>
+                </div>
+                <div class="item4">
+                    <a href="#">four</a>
+                </div>
+                <div class="item5">
+                    <a href="#">five</a>
+                </div>
+            </div>
+        </body>
+        </html>

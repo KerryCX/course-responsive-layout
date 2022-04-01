@@ -9,3 +9,12 @@ img {
     /*image never to be wider than its containing element, so 100%*/
     max-width: 100%;
 }
+.container {
+	border: 1px solid #000;
+	margin: 30px;
+}
+.container > * {
+	border: 2px solid green;
+	background-color: #ffec99;
+	padding: 10px;
+}
