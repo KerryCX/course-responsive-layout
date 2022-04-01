@@ -6,14 +6,37 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css" type="text/css">
         <style>
-            div {
-                width: 50vmin; /*50% of which ever is the shorter side of viewing 
-                window, width or height*/
-                height: 50vmin;
+            .container {
+                display: flex;
             }
-        </style>
-    </head>
-    <body>
-        <div></div>
-    </body>
-</html>
+            .item5 {
+                order: -1;
+            }
+            .item3 {
+                order: 1;
+            }
+        
+        
+        
+            </style>
+        </head>
+        <body>
+            <div class="container">
+                <div class="item1">
+                    <a href="#">one</a>
+                </div>
+                <div class="item2">
+                    <a href="#">two</a>
+                </div>
+                <div class="item3">
+                    <a href="#">three</a>
+                </div>
+                <div class="item4">
+                    <a href="#">four</a>
+                </div>
+                <div class="item5">
+                    <a href="#">five</a>
+                </div>
+            </div>
+        </body>
+        </html>
