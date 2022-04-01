@@ -7,9 +7,10 @@
         <link rel="stylesheet" href="style.css" type="text/css">
         <style>
             .div2 {
-                position: relative;
-                left: -40px; /*going towards the left by 40px*/
-                top: -40px; /*going towards the top by 40px*/
+                position: absolute; /*positions in first containing element that does 
+                not have the position of static, in this case the body element*/
+                left: 40px; /*going towards the left inside body by 40px*/
+                top: 40px; /*going towards the top inside body by 40px*/
             }
         </style>
     </head>
