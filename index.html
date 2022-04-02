@@ -25,9 +25,31 @@
             justify-content: space-between;
         }
         .links {
-            width: 1000px;
+            min-width: 250px;
         }
-       
+        @media (max-width: 500px) {
+            header {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            h1 {
+                order: -3;
+            }
+            .image1, .image2 {
+                max-width: 48%;
+            }
+        }
+
+        @media (max-width: 750px) {
+            .container {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            .links {
+                width: 100%;
+                order: 2;
+            }
+        }
 	</style>
 </head>
 <body>
