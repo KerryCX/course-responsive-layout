@@ -6,6 +6,33 @@
 	<link href="styles.css" rel="stylesheet" type="text/css">
 	<meta content="width=device-width, initial-scale=1" name="viewport">
 	<style>
+        .container {
+            display: grid;
+            grid-gap: 20px;
+            grid-template-areas: 
+                "header"
+                "content"
+                "related"
+                "ads"
+                "footer";
+        }
+
+        .main-header {
+            grid-area: header;
+        }
+        .main-content {
+            grid-area: content;
+        }
+        .related-links {
+            grid-area: related;
+        }
+        .ads {
+            grid-area: ads;
+        }
+        .main-footer {
+            grid-area: footer;
+        }
+
 
 
 
@@ -17,7 +44,12 @@
 			Header
 		</header>
 		<article class="main-content">
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ligula lorem, gravida sit amet ipsum a, dictum gravida dolor. Phasellus nisi elit, commodo at feugiat at, malesuada nec eros. Integer dignissim nec nulla id cursus. Nam commodo ligula lorem, eget tempus velit vehicula non. Nunc eget sagittis ex. Nulla eu ex faucibus.
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Vivamus ligula lorem, gravida sit amet ipsum a, dictum 
+            gravida dolor. Phasellus nisi elit, commodo at feugiat at, 
+            malesuada nec eros. Integer dignissim nec nulla id cursus. 
+            Nam commodo ligula lorem, eget tempus velit vehicula non. 
+            Nunc eget sagittis ex. Nulla eu ex faucibus.
 		</article>
 		<aside class="related-links">
 			Related Links
