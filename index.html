@@ -11,14 +11,10 @@
                 grid-gap: 10px;
                 grid-template-columns: repeat(3, 1fr);
                 grid-template-rows: repeat(2, 1fr);
+                grid-auto-flow: dense; /*fills in empty space*/
             }
             .item4 {
-                grid-column-start: 2; /*item four is starting at line two, it places the 
-                first three items, then when it gets to number four, it needs to be starting 
-                at the second line. Skips ahead through the cells until it gets to an 
-                empty cell which starts at line two and that's where it places that grid 
-                item. Then the spaces it skipped over stay empty and the next item follows 
-                number four. */
+                grid-column-start: 2; 
             }
         </style>
         </head>
