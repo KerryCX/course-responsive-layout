@@ -7,36 +7,68 @@
         <link rel="stylesheet" href="style.css" type="text/css">
         <style>
             .container {
-                display: flex;
+                display: grid;
+                grid-template-columns: repeat(6, 1fr);
+                grid-template-rows: repeat(5, 1fr);
             }
-            .item5 {
-                order: -1;
+            .red {
+                grid-column-start: 2;
+                grid-column-end: 6;
             }
-            .item3 {
-                order: 1;
+            .orange {
+                grid-column-start: 1;
+                grid-row-start: 2;
+                grid-row-end: 6;
             }
-        
-        
-        
+            .yellow {
+                grid-column: 2 / 4;
+                grid-row: 2 / 5;
+            }
+            .green { 
+                grid-column: 4 / span 2;
+             }
+            .blue {
+                grid-column: 2 / span 4;
+            }
+            .purple {
+                grid-column-start: 6;
+                grid-row: 1 / 6;
+            }
+            .gray {
+                grid-area: 3 / 4 / 5 / 6;
+            }
+            .white {
+                grid-column-start: 1;
+                grid-row-start: 1;
+            }
             </style>
-        </head>
-        <body>
-            <div class="container">
-                <div class="item1">
-                    <a href="#">one</a>
-                </div>
-                <div class="item2">
-                    <a href="#">two</a>
-                </div>
-                <div class="item3">
-                    <a href="#">three</a>
-                </div>
-                <div class="item4">
-                    <a href="#">four</a>
-                </div>
-                <div class="item5">
-                    <a href="#">five</a>
-                </div>
+    </head>
+    <body>
+        <div class="container">
+            <div class="red">
+                &nbsp;
             </div>
-        </body>
-        </html>
+            <div class="orange">
+                &nbsp;
+            </div>
+            <div class="yellow">
+                &nbsp;
+            </div>
+            <div class="green">
+                &nbsp;
+            </div>
+            <div class="blue">
+                &nbsp;
+            </div>
+            <div class="purple">
+                &nbsp;
+            </div>
+            <div class="gray">
+                &nbsp;
+            </div>
+            <div class="white">
+                &nbsp;
+            </div>
+        </div>
+    </body>
+    </html>
