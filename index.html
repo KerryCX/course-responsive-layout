@@ -9,11 +9,7 @@
             .container {
 		        display: grid;
 		        grid-gap: 10px;
-                grid-template-columns: 1fr 3fr 9fr; /*1you can see that all 
-                the rows take up the full height of that grid container together, 
-                this last row doesn't have any height defined, so it's only as 
-                tall as it needs to be to fit the content and the other three rows 
-                are proportional, based on their fr unit.*/
+                grid-template-columns: repeat(4, 125px); /*four columns of 125px*/
                 grid-template-rows: 2fr 1fr 3fr;
                 height: 90vh;
             }
