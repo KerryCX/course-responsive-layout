@@ -44,6 +44,16 @@
             }
         }
 
+        @media (min-width: 800px) {
+            .container {
+                grid-template-rows: repeat(4, 1fr);
+                grid-template-areas: 
+                "header header header header"
+                "related content content ads"
+                "footer footer footer footer";
+            }
+        }
+
 
 	</style>
 </head>
