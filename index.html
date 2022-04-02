@@ -12,13 +12,14 @@
            }
            .item3 {
                flex-grow: 1; 
+               flex-shrink: 3;/*when not enough space for all, item3 shrinks first*/
            }
            .item4 {
                flex-grow: 2;/**/
            }
            .item {
                flex-basis: 150px;
-               /*all have same flex-shrink value of 1 so shrink by same amount*/
+
            }
         </style>
     </head>
