@@ -9,7 +9,9 @@
             .container {
                 display: grid;
                 grid-gap: 10px;
-                
+                grid-template-columns: repeat(auto-fill, minmax(150px,1fr));
+                /*each column will be min 150px but can be up to 1fr*/
+                justify-content: space-between;
             }
 
         </style>
