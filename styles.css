@@ -5,10 +5,13 @@ html {
 img {
 	max-width: 100%;
 }
-*, *:before, *:after {
+*,*:before,*:after {
 	box-sizing: inherit;
 }
-nav, .main, .related, .ads, footer {
-	border: 1px solid black;
+.container {
+	margin: 30px;
+}
+.container > * {
+	border: 1px solid #000;
 	padding: 10px;
 }
