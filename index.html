@@ -10,8 +10,9 @@
                 display: grid;
                 grid-gap: 10px;
                 grid-template-columns: repeat(4, auto);
-                justify-items: center; /*puts items in grid cells in centre of grid cell*/
-            
+                justify-items: center; /*horizontal*/
+                align-items: stretch; /*stretch is again default*/ /*vertical*/
+                min-height: 90vh; /*needed to give empty space so align-items works*/
         </style>
         </head>
         <body>
