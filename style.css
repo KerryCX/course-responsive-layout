@@ -9,36 +9,11 @@ img {
 	box-sizing: inherit;
 }
 .container {
-	border: 1px solid black;
+	border: 1px solid #000;
 	margin: 30px;
-	width: 600px;
-	font-size: 4em;
 }
-.container>* {
-	border: 1px solid black;
+.container > * {
+	border: 2px solid green;
+	background-color: #ffec99;
 	padding: 10px;
-}
-.red {
-	background-color: red;
-}
-.orange {
-	background-color: orange;
-}
-.yellow {
-	background-color: yellow;
-}
-.green {
-	background-color: green;
-}
-.blue {
-	background-color: blue;
-}
-.purple {
-	background-color: purple;
-}
-.gray {
-	background-color: gray;
-}
-.white {
-	background-color: white;
 }
