@@ -9,7 +9,13 @@
             .container {
 		        display: grid;
 		        grid-gap: 10px;
-                grid-template-columns: 1fr 3fr 9fr; /*1/13, 3/13 and 9/13, but there is not enough space in 1/13 for the first column so not quite right*/
+                grid-template-columns: 1fr 3fr 9fr; /*1you can see that all 
+                the rows take up the full height of that grid container together, 
+                this last row doesn't have any height defined, so it's only as 
+                tall as it needs to be to fit the content and the other three rows 
+                are proportional, based on their fr unit.*/
+                grid-template-rows: 2fr 1fr 3fr;
+                height: 90vh;
             }
             </style>
         </head>
