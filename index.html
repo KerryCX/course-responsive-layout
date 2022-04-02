@@ -9,10 +9,12 @@
             .container {
                 display: grid;
                 grid-gap: 10px;
-                grid-template-columns: [start] 100px 100px [middle] repeat(2, 1fr) [end];/*not all lines need names*/
+                grid-template-columns: 
+                [start] 1fr 
+                [content-start] repeat(3, 1fr) 
+                [content-end] 1fr 
+                [end];
             }
-
-
 
         </style>
         </head>
